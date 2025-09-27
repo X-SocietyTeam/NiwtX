@@ -1,0 +1,42 @@
+name: Update "The Designs"
+
+on:
+  release:
+    types: [published, edited, deleted]
+
+jobs:
+  update_the_designs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Fetch and group releases
+        run: |
+          curl -s -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            https://api.github.com/repos/${{ github.repository }}/releases \
+            > releases.json
+
+          echo "# The Designs" > "The Designs.md"
+          echo "" >> "The Designs.md"
+
+          # Extract unique tag_names
+          TAGS=$(jq -r '.[].tag_name' releases.json | sort -u)
+
+          # Loop through each tag name and group them
+          for TAG in $TAGS; do
+            echo "## ${TAG}" >> "The Designs.md"
+            jq -r --arg t "$TAG" '.[] | select(.tag_name == $t) | "- [" + .name + "](" + .html_url + ")"' releases.json >> "The Designs.md"
+            echo "" >> "The Designs.md"
+          done
+
+          echo "[See all releases](https://github.com/${{ github.repository }}/releases)" >> "The Designs.md"
+
+      - name: Commit updated file
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add "The Designs.md"
+          git diff --cached --quiet || git commit -m "Auto update The Designs"
+          git push origin main
