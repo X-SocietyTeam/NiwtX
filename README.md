@@ -91,13 +91,13 @@ Nawal Ebrahim Abd El Samad El masah ( team leader )
 
 primary :  Brochure , ID Cards , Road/street signs, company profile  
 
-secondary : Facebook signs , final presentation pdf ,GitHub upload 
+secondary : Facebook posts ,GitHub upload 
 
 Nehad Afify Abdelgaied Ibrahim 
 
 primary : Billboard , Blocknote , FB cover & profile , company profile 
 
-secondary : bus design ,  final presentation pdf 
+secondary : bus design , company logo , stickers , company cup , Letter head , Jacket folder  
 
 Hossam Eldin Haitham Abdelaal Shams Eldin
 
@@ -107,15 +107,13 @@ secondary : final presentation pdf
 
  Marwan Tamer Mahmoud Hamza 
 
- primary : Letter head , Jacket folder ,IG posts , company profile 
+ primary : IG posts , company profile 
 
- secondary : final presentation pdf
 
  Alaa fawzi elsayed shelbaya
 
 primary : flyers , company profile cover
 
-secondary : final presentation pdf
 
 Mohammed Yaser Gareeb EL Behery
 
