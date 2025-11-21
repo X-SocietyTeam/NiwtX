@@ -89,30 +89,30 @@ Roles & Responsibilities
 
 Nawal Ebrahim Abd El Samad El masah ( team leader ) 
 
-primary :  Brochure , ID Cards , Road/street signs, company profile  
+primary :  Brochure , ID Cards , Road/street signs, company profile page 
 
-secondary : Facebook posts ,GitHub upload 
+secondary : Facebook posts ,GitHub upload , company profile cover 
 
 Nehad Afify Abdelgaied Ibrahim 
 
-primary : Billboard , Blocknote , FB cover & profile , company profile 
+primary : Billboard , Blocknote , FB cover & profile , company profile page 
 
 secondary : bus design , company logo , stickers , company cup , Letter head , Jacket folder  
 
 Hossam Eldin Haitham Abdelaal Shams Eldin
 
-primary : Calender , Roll up banner , Linked in cover, company profile 
+primary : logo , Calender , Roll up banner , Linked in cover, company profile page
 
 secondary : final presentation pdf
 
  Marwan Tamer Mahmoud Hamza 
 
- primary : IG posts , company profile 
+ primary : IG posts , company profile page
 
 
  Alaa fawzi elsayed shelbaya
 
-primary : flyers , company profile cover
+primary : flyers
 
 
 Mohammed Yaser Gareeb EL Behery
